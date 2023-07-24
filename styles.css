@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  /*font-family: Arial, sans-serif;*/
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+/* Add styles for the page image container */
+.image-container {
+  overflow: hidden;
+  height: 100%;
+  /* Hide any content that overflows the container */
+}
+
+.logo{
+  margin-left: 3vw; 
+}
+.input-section{
+  margin-top: 5%;
+  width: 30vw;
+  margin-right: 5vw;
+  margin-left: 1vw;
+  background: rgb(254,143,87);
+  background: linear-gradient(180deg, rgba(254,143,87,1) 0%, rgba(234,51,105,1) 81%);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.form-group{
+  background-color: inherit;
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+::placeholder {
+  color: white;
+}
+
+/* For older browsers that support placeholder but not ::placeholder */
+:-ms-input-placeholder {
+  color: white;
+}
+
+/* For older browsers that do not support placeholder */
+::-moz-placeholder {
+  color: white;
+}
+
+/* For older browsers that do not support placeholder */
+::-webkit-input-placeholder {
+  color: white;
+}
+.form-control{
+  background-color: rgb(255,255, 255,0.25);
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 10px ;
+  
+  
+}
+
+.menu{
+  margin-right: 3vw;
+  color: white;
+}
+a{
+  color: white;
+}
+.headerclass{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.newsletter{
+  display:flex;
+  height: 75vh;
+  justify-content: space-between;
+}
+
+.article-section{
+  margin-top: 5vw;
+  width: 60vw;
+  margin-left: 6vw;
+  margin-right: 2vw;
+}
+
+
+/* Add styles for the page image */
+.page-image {
+  width: 100%; /* Set the width to 100% to fill the container */
+  height: 100%; /* Let the height adjust proportionally */
+}
+
+/* Additional style for the header */
+.bg-black {
+  background-color: #000;
+}
