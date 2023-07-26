@@ -12,30 +12,33 @@ body {
   /* Hide any content that overflows the container */
 }
 
-.logo{
-  margin-left: 3vw; 
+.logo {
+  margin-left: 3vw;
 }
-.input-section{
+.input-section {
   margin-top: 5%;
   width: 30vw;
   margin-right: 5vw;
   margin-left: 1vw;
-  background: rgb(254,143,87);
-  background: linear-gradient(180deg, rgba(254,143,87,1) 0%, rgba(234,51,105,1) 81%);
+  background: rgb(254, 143, 87);
+  background: linear-gradient(
+    180deg,
+    rgba(254, 143, 87, 1) 0%,
+    rgba(234, 51, 105, 1) 81%
+  );
   display: flex;
   flex-direction: column;
   border-radius: 10px;
   justify-content: center;
 }
 
-.form-group{
+.form-group {
   background-color: inherit;
   width: 80%;
   margin-left: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 ::placeholder {
   color: white;
@@ -55,42 +58,160 @@ body {
 ::-webkit-input-placeholder {
   color: white;
 }
-.form-control{
-  background-color: rgb(255,255, 255,0.25);
+.form-control {
+  background-color: rgb(255, 255, 255, 0.25);
   margin-top: 2%;
   margin-bottom: 2%;
-  border-radius: 10px ;
-  
-  
+  border-radius: 10px;
 }
 
-.menu{
+.menu {
   margin-right: 3vw;
   color: white;
 }
-a{
+a {
   color: white;
 }
-.headerclass{
+.headerclass {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
-.newsletter{
-  display:flex;
+.newsletter {
+  display: flex;
   height: 75vh;
   justify-content: space-between;
+  margin-top: 2%;
+  margin-bottom: 12%;
 }
 
-.article-section{
-  margin-top: 5vw;
+.article-section {
+  margin-top: 6.5%;
   width: 60vw;
   margin-left: 6vw;
   margin-right: 2vw;
 }
 
+.socialmedia {
+  background-color: #f5f2f2;
+  display: flex;
+  height: 78vh;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-section {
+  height: 25%;
+  width: 25%;
+  margin-bottom: 20%;
+}
+
+.content-section {
+  margin-left: 15%;
+  margin-right: 4%;
+}
+
+.content-section-text {
+  color: #808080;
+  font-size: 1.2rem;
+}
+.uppered {
+  height: 40vh;
+  background: rgb(254, 143, 87);
+  background: linear-gradient(
+    90deg,
+    rgba(254, 143, 87, 1) 0%,
+    rgba(241, 85, 98, 1) 49%,
+    rgba(212, 43, 93, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.parenttextboxes {
+  height: 45vh;
+  width: 95vw;
+  margin-left: 2%;
+  position: absolute;
+  margin-top: -15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.rowtextbox {
+  width: 30%;
+  background-color: #f8f3f3;
+  display: flex;
+  align-items: center;
+}
+
+.rowtexts {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 1rem;
+  color: #726c6c;
+}
+
+.message-section {
+  margin-top: 45vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.envelope-section {
+  width: 100vw;
+  height: 100vh;
+}
+
+.users {
+  background-color: rgba(254, 143, 87, 1);
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+
+.card {
+  width: 22vw;
+  height: 40vh;
+  background-color: #e2e0e0;
+}
+
+.pers-section {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #817e7e;
+}
+
+.emarketing-section {
+  margin-top: 3%;
+  height: 85vh;
+  background: rgb(254,143,87);
+  background: linear-gradient(90deg, rgba(254,143,87,1) 0%, rgba(241,85,98,1) 49%, rgba(212,43,93,1) 100%);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.emarketing-text{
+  margin-left: 7%;
+  margin-right: 5%;
+  color: white;
+  font-size: 1.2rem;
+}
 
 /* Add styles for the page image */
 .page-image {
