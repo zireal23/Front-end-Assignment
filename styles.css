@@ -199,14 +199,53 @@ a {
 .emarketing-section {
   margin-top: 3%;
   height: 85vh;
-  background: rgb(254,143,87);
-  background: linear-gradient(90deg, rgba(254,143,87,1) 0%, rgba(241,85,98,1) 49%, rgba(212,43,93,1) 100%);
+  background: rgb(254, 143, 87);
+  background: linear-gradient(
+    90deg,
+    rgba(254, 143, 87, 1) 0%,
+    rgba(241, 85, 98, 1) 49%,
+    rgba(212, 43, 93, 1) 100%
+  );
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
 }
-.emarketing-text{
+
+.emarketing-text-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7%;
+  color: white;
+}
+
+.emarketing-text {
+  display: flex;
+  align-items: center;
+  height: 70%;
+  width: 90%;
+}
+.emarketing-text1 {
+  margin-left: 7%;
+  margin-right: 5%;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.active{
+  display: block;
+}
+
+.inactive{
+  display: none;
+}
+.emarketing-text2 {
+  margin-left: 7%;
+  margin-right: 5%;
+  color: white;
+  font-size: 1.2rem;
+}
+.emarketing-text3 {
   margin-left: 7%;
   margin-right: 5%;
   color: white;
